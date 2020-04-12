@@ -9,18 +9,6 @@ function tripleStr(str1, str2, str3) {
     // on the next loop, add the next letter, and so on.
 
     let newStr = ""
-    // for (let i = 0; i < str1.length; i++) {
-    //     let letter = str1.slice(i, i+1);
-    //     newStr += letter
-    // }
-    // for (let i = 0; i < str2.length; i++) {
-    //     let letter = str2.slice(i, i+1);
-    //     newStr += letter
-    // }
-    // for (let i = 0; i < str3.length; i++) {
-    //     let letter = str3.slice(i, i+1);
-    //     newStr += letter
-    // }
     for (let i = 0; i < str1.length; i++) {
             let letter1 = str1.slice(i, i+1);
             newStr += letter1
