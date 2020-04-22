@@ -6,9 +6,19 @@
 
 //recursive
 
+// function power(base, exp) {
+//     if(exp === 0) return 1;
+//     return base * power(base, exp-1)
+// }
+
+// console.log(power(2,4))
+
+
+//non recursive
+
 function power(base, exp) {
-    if(exp === 0) return 1;
-    return base * power(base, exp-1)
+  if (exp === 0) return 1;
+  return base ** exp
 }
 
-console.log(power(2,4))
+console.log(power(2, 4));
